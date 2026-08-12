@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c1510">
+<meta name="description" content="Hotel Snow Heights — a premium mountain stay near Sonamarg.">
+<title>Hotel Snow Heights | Near Sonamarg</title>
+<style>
+:root{--dark:#0c1510;--dark2:#142219;--forest:#1b3025;--gold:#c9a765;--gold2:#e5cc91;--cream:#f6f1e7;--paper:#fbfaf6;--text:#18201b;--muted:#68716b;--line:rgba(24,32,27,.11);--green:#16814d;--r:24px;--shadow:0 20px 60px rgba(8,15,11,.15)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:72px}body{overflow-x:hidden;background:var(--paper);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}img{display:block;width:100%;max-width:100%}.container{width:min(1120px,calc(100% - 32px));margin:auto}.section{padding:78px 0}.eyebrow{font-size:.65rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:11px}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height:1.08}h2{font-size:clamp(2.2rem,9vw,4.4rem);letter-spacing:-.045em}p{color:var(--muted)}.concept{display:inline-block;border:1px solid rgba(201,167,101,.38);border-radius:100px;padding:6px 10px;color:#9a783f;background:rgba(201,167,101,.07);font-size:.52rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}.dark-concept{color:var(--gold2);background:rgba(0,0,0,.2)}.btn{min-height:49px;padding:0 19px;border-radius:100px;border:1px solid var(--gold);display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:.69rem;font-weight:700;cursor:pointer;transition:.22s}.btn:hover{transform:translateY(-2px)}.btn:active{transform:scale(.97)}.primary{background:var(--gold);color:#17130c}.darkbtn{background:var(--dark);color:#fff;border-color:var(--dark)}.whitebtn{background:#fff;color:var(--dark);border-color:#fff}.wa{background:var(--green);color:#fff;border-color:#31a968}.outline{background:transparent;color:var(--text)}
+/* nav */
+.nav{position:fixed;z-index:1000;top:0;left:0;right:0;background:rgba(9,16,12,.91);border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:blur(16px)}.navin{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:9px;color:#fff}.mark{width:36px;height:36px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold2);font-size:15px}.brandname{font:500 .92rem Georgia,serif}.brandsub{display:block;color:#b89b63;font-size:.43rem;letter-spacing:.18em;text-transform:uppercase}.links{display:none;align-items:center;gap:22px;color:#c5cbc6;font-size:.63rem}.links a:hover{color:var(--gold2)}.menub{width:42px;height:42px;border:1px solid rgba(255,255,255,.14);border-radius:50%;background:transparent;color:#fff;font-size:18px}.mobile{display:none;background:rgba(8,14,10,.98);border-top:1px solid rgba(255,255,255,.06)}.mobile.open{display:block}.mobile a{display:flex;justify-content:space-between;padding:13px 0;color:#c3c9c4;font-size:.68rem;border-bottom:1px solid rgba(255,255,255,.06)}.mobile a:after{content:"→";color:var(--gold)}
+/* hero */
+.hero{min-height:100svh;padding-top:68px;position:relative;display:flex;align-items:flex-end;overflow:hidden;background:#0d1711}.heroimg{position:absolute;inset:0}.heroimg img{height:100%;object-fit:cover;object-position:center;opacity:.82}.heroover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,9,6,.16),rgba(3,9,6,.25) 38%,rgba(3,9,6,.94) 84%,#030806),linear-gradient(90deg,rgba(3,8,5,.4),transparent 75%)}.heroin{position:relative;z-index:2;width:100%;padding:65px 0 40px}.hero h1{color:#fff;font-size:clamp(3.15rem,15vw,7rem);letter-spacing:-.065em;max-width:850px;margin-top:14px}.hero h1 span{display:block;color:var(--gold2);font-style:italic}.hero p{max-width:610px;margin-top:17px;color:#e0e5df;font:500 .89rem/1.85 Georgia,serif}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:650px;margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14)}.meta strong{display:block;color:#fff;font-size:.65rem}.meta span{display:block;color:#a9b1ab;font-size:.55rem;margin-top:2px}
+/* intro */
+.intro{background:var(--paper)}.introgrid{display:grid;gap:32px}.introcopy h2{margin-bottom:17px}.introcopy>p{max-width:680px;font:500 .9rem/1.9 Georgia,serif}.note{margin-top:19px;padding:14px 15px;border-left:2px solid var(--gold);background:#f1ede3;color:#71766f;font-size:.6rem;line-height:1.7}.introimg{height:390px;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}.introimg img{height:100%;object-fit:cover}
+/* rooms */
+.rooms{background:#f0ede5}.heading{margin-bottom:30px}.heading p{max-width:650px;margin-top:10px;font-size:.76rem;line-height:1.8}.roomgrid{display:grid;gap:15px}.room{background:#fff;border:1px solid rgba(23,32,28,.08);border-radius:var(--r);overflow:hidden;box-shadow:0 10px 35px rgba(20,25,22,.055);transition:.3s}.room:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.roompic{height:235px;position:relative;overflow:hidden}.roompic img{height:100%;object-fit:cover;transition:.55s}.room:hover img{transform:scale(1.04)}.tag{position:absolute;left:12px;bottom:12px;background:rgba(8,14,10,.72);color:#fff;border-radius:100px;padding:5px 9px;font-size:.5rem;backdrop-filter:blur(7px)}.roominfo{padding:19px}.roominfo h3{font-size:1.38rem;margin-bottom:8px}.roominfo p{font-size:.68rem;line-height:1.7;margin-bottom:14px}.enq{color:#90703f;font-size:.61rem;font-weight:700}
+/* facilities */
+.fac{background:var(--forest);color:#fff}.fac .heading p{color:#aebbb4}.facgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.facility{padding:19px 14px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.035);border-radius:17px}.fi{width:36px;height:36px;border:1px solid rgba(201,167,101,.36);border-radius:50%;display:grid;place-items:center;color:var(--gold2);margin-bottom:11px}.facility h3{font-size:1rem;margin-bottom:4px}.facility p{color:#9ea9a3;font-size:.6rem;line-height:1.6}
+/* location */
+.location{background:#111b16;color:#fff}.locgrid{display:grid;gap:25px}.loc h2{margin-bottom:15px}.loc>p{color:#b7c0ba;font:500 .88rem/1.9 Georgia,serif}.facts{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:24px}.fact{padding:16px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(255,255,255,.035)}.fact strong{display:block;color:#f1ede3;font-size:.65rem}.fact span{display:block;color:#9ba69f;font-size:.55rem;margin-top:3px}.locpic{min-height:360px;border-radius:var(--r);overflow:hidden;position:relative}.locpic img{height:100%;min-height:360px;object-fit:cover}.credit{position:absolute;left:11px;bottom:11px;background:rgba(8,12,10,.72);border:1px solid rgba(255,255,255,.13);border-radius:100px;padding:5px 8px;color:#ddd;font-size:.46rem}
+/* restaurant */
+.restaurant{background:var(--paper)}.restgrid{display:grid;gap:30px}.restpic{height:370px;border-radius:var(--r);overflow:hidden}.restpic img{height:100%;object-fit:cover}.restcopy h2{margin-bottom:15px}.restcopy>p{font:500 .88rem/1.85 Georgia,serif}.chips{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 22px}.chip{padding:7px 10px;border-radius:100px;background:#f0ece2;border:1px solid var(--line);color:#626760;font-size:.57rem}
+/* gallery */
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:8px}.gitem{height:180px;overflow:hidden;border-radius:15px;position:relative}.gitem:first-child{height:250px;grid-column:span 2}.gitem img{height:100%;object-fit:cover;transition:.55s}.gitem:hover img{transform:scale(1.05)}.glab{position:absolute;left:9px;bottom:9px;background:rgba(5,10,7,.7);color:#fff;padding:4px 7px;border-radius:100px;font-size:.46rem}
+/* reasons */
+.why{background:#eee9df}.whygrid{display:grid;gap:10px}.whycard{padding:23px 19px;border-radius:19px;background:#fff;border:1px solid rgba(23,32,28,.08)}.num{color:var(--gold);font:1.5rem Georgia,serif;margin-bottom:10px}.whycard h3{font-size:1.18rem;margin-bottom:7px}.whycard p{font-size:.66rem;line-height:1.7}
+/* booking */
+.booking{background:var(--paper)}.formcard{max-width:850px;margin:auto;padding:25px 18px;border-radius:var(--r);background:#fff;border:1px solid rgba(23,32,28,.1);box-shadow:var(--shadow)}.formgrid{display:grid;gap:13px}.field label{display:block;color:#4d554f;font-size:.6rem;font-weight:700;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;min-height:48px;padding:12px 13px;outline:0;border:1px solid #d9d8d1;border-radius:12px;background:#faf9f5;color:var(--text);font-size:.68rem}.field textarea{min-height:100px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,167,101,.13)}.formresult{display:none;margin-top:13px;padding:13px;border-radius:12px;background:#e8f5ed;color:#27663f;font-size:.63rem;line-height:1.7}.formresult.show{display:block}.smallnote{margin-top:10px;color:#858981;font-size:.55rem}
+/* cta */
+.cta{padding:60px 0;background:#eae5d9}.ctabox{padding:48px 20px;border-radius:28px;background:linear-gradient(120deg,rgba(10,22,16,.95),rgba(27,45,35,.94)),url("https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=1400&q=75") center/cover;text-align:center;color:#fff}.ctabox h2{margin:12px 0;font-size:clamp(2rem,9vw,3.8rem)}.ctabox p{max-width:600px;margin:0 auto 24px;color:#c2cac5;font-size:.75rem}.ctactions{display:flex;justify-content:center;flex-wrap:wrap;gap:9px}
+/* faq */
+.faq{display:grid;gap:8px;max-width:820px;margin:auto}.faqitem{overflow:hidden;border:1px solid var(--line);border-radius:15px;background:#fff}.faqq{width:100%;min-height:58px;padding:15px 16px;border:0;background:transparent;display:flex;justify-content:space-between;align-items:center;gap:15px;color:var(--text);text-align:left;font-size:.72rem;font-weight:700}.faqq span{color:var(--gold);font-size:1.2rem}.faqa{max-height:0;overflow:hidden;transition:max-height .3s}.faqa p{padding:0 16px 17px;font-size:.64rem;line-height:1.7}.faqitem.active .faqa{max-height:220px}
+/* footer */
+footer{padding:46px 0 38px;background:#09100c;color:#fff}.footgrid{display:grid;gap:25px}.footbrand{font:1.45rem Georgia,serif}.footbrand span{color:var(--gold2)}.footcopy{max-width:480px;margin-top:8px;color:#89928c;font-size:.61rem;line-height:1.7}.footlinks{display:flex;flex-wrap:wrap;gap:13px;color:#aeb4af;font-size:.61rem}.copyright{margin-top:24px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);color:#707974;font-size:.52rem;line-height:1.7}
+/* floating */
+.float{position:fixed;z-index:950;right:14px;bottom:15px;display:flex;flex-direction:column;gap:8px;align-items:flex-end}.floatbtn{height:51px;min-width:51px;padding:0 15px;border:0;border-radius:100px;box-shadow:0 10px 30px rgba(0,0,0,.28);font-size:.61rem;font-weight:700}.floatwa{width:51px;padding:0;border-radius:50%;background:#1d9c5b;color:#fff;font-size:18px}.floatai{background:var(--gold);color:#18150e}
+/* ai */
+.aiover{position:fixed;z-index:1200;inset:0;display:none;align-items:flex-end;justify-content:center;padding:12px;background:rgba(4,9,6,.65);backdrop-filter:blur(7px)}.aiover.open{display:flex}.aipanel{width:min(500px,100%);max-height:88svh;display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(201,167,101,.3);border-radius:25px;background:#f8f6f0;box-shadow:0 25px 80px rgba(0,0,0,.4)}.aihead{padding:17px;display:flex;justify-content:space-between;align-items:center;background:var(--dark);color:#fff}.aititle{display:flex;align-items:center;gap:10px}.ailogo{width:38px;height:38px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;color:var(--gold2)}.aititle strong{display:block;font:1rem Georgia,serif}.aititle small{display:block;color:#9da8a1;font-size:.51rem}.aiclose{width:37px;height:37px;border:1px solid rgba(255,255,255,.15);border-radius:50%;background:transparent;color:#fff;font-size:18px}.aidis{padding:9px 15px;background:#eee9dc;color:#696c65;font-size:.53rem}.aimsg{flex:1;min-height:210px;max-height:390px;overflow:auto;padding:15px}.msg{max-width:88%;margin-bottom:10px;padding:11px 12px;border-radius:15px;font-size:.63rem;line-height:1.6}.botmsg{background:#fff;color:#4d554f;border:1px solid #e0ded5;border-bottom-left-radius:5px}.usermsg{margin-left:auto;background:var(--dark);color:#fff;border-bottom-right-radius:5px}.aichips{padding:10px 12px 5px;display:flex;gap:7px;overflow-x:auto}.aichip{flex:0 0 auto;padding:8px 10px;border:1px solid #d8d4c9;border-radius:100px;background:#fff;color:#5b625c;font-size:.55rem}.airow{padding:10px;display:flex;gap:7px;border-top:1px solid #dedbd3;background:#fff}.aiinput{min-width:0;flex:1;border:1px solid #d8d5cd;border-radius:100px;padding:10px 13px;outline:0;font-size:.62rem}.aisend{width:42px;height:42px;flex:0 0 42px;border:0;border-radius:50%;background:var(--dark);color:#fff}
+/* reveal */
+.reveal{opacity:0;transform:translateY(20px);transition:.65s}.reveal.visible{opacity:1;transform:none}
+@media(min-width:700px){.container{width:min(1120px,calc(100% - 70px))}.menub{display:none}.links{display:flex}.section{padding:105px 0}.heroin{padding-bottom:75px}.introgrid{grid-template-columns:1fr 1fr;align-items:center;gap:70px}.introimg{height:auto;aspect-ratio:1/1}.roomgrid{grid-template-columns:repeat(3,1fr)}.roompic{height:245px}.locgrid{grid-template-columns:1fr 1fr;align-items:stretch}.restgrid{grid-template-columns:1fr 1fr;align-items:center}.gallery{grid-template-columns:repeat(4,1fr);gap:12px}.gitem,.gitem:first-child{height:260px;grid-column:span 1}.gitem:first-child{grid-column:span 2;grid-row:span 2;height:532px}.whygrid{grid-template-columns:repeat(3,1fr)}.formgrid{grid-template-columns:1fr 1fr}.full{grid-column:1/-1}.footgrid{grid-template-columns:1.5fr 1fr;align-items:end}}
+@media(min-width:1000px){.hero h1{font-size:6.5rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container navin">
+    <a href="#home" class="brand"><div class="mark">✦</div><div><div class="brandname">Hotel Snow Heights</div><span class="brandsub">Near Sonamarg</span></div></a>
+    <nav class="links">
+      <a href="#rooms">Rooms</a><a href="#facilities">Facilities</a><a href="#restaurant">Restaurant</a><a href="#gallery">Gallery</a><a href="#location">Location</a><a href="#booking">Book</a>
+    </nav>
+    <button class="menub" id="menub">☰</button>
+  </div>
+  <div class="mobile" id="mobile"><div class="container">
+    <a href="#rooms">Rooms</a><a href="#facilities">Facilities</a><a href="#restaurant">Restaurant</a><a href="#gallery">Gallery</a><a href="#location">Location</a><a href="#booking">Book Your Stay</a>
+  </div></div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="heroimg"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1800&q=85" alt="Mountain landscape"></div>
+  <div class="heroover"></div>
+  <div class="container heroin">
+    <span class="concept dark-concept">Website concept prepared for Hotel Snow Heights</span>
+    <div class="eyebrow" style="margin-top:20px">Mountain stay · Near Sonamarg</div>
+    <h1>Stay closer to the <span>Himalayas.</span></h1>
+    <p>A refined mountain retreat designed for peaceful stays, warm hospitality and unforgettable journeys through Kashmir.</p>
+    <div class="actions">
+      <a class="btn primary" href="#booking">Check Availability</a>
+      <a class="btn wa" href="https://wa.me/919999999999?text=Hello%20Hotel%20Snow%20Heights%2C%20I%20would%20like%20to%20enquire%20about%20a%20stay.">WhatsApp Us</a>
+    </div>
+    <div class="meta">
+      <div><strong>Near Sonamarg</strong><span>Gateway to the mountains</span></div>
+      <div><strong>Comfort & views</strong><span>Designed for memorable stays</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section intro" id="about">
+  <div class="container introgrid">
+    <div class="introcopy reveal">
+      <div class="eyebrow">A warm welcome</div>
+      <h2>Your Kashmir stay, thoughtfully made.</h2>
+      <p>Hotel Snow Heights brings together comfortable accommodation, local hospitality and the dramatic beauty of the Kashmir mountains. Whether you are travelling with family, friends or as a couple, the hotel is designed to make your time in the valley feel effortless.</p>
+      <div class="note">A premium website concept created to showcase how Hotel Snow Heights could present its rooms, facilities and booking experience online.</div>
+    </div>
+    <div class="introimg reveal"><img src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1100&q=82" alt="Mountain hotel atmosphere" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="section rooms" id="rooms">
+  <div class="container">
+    <div class="heading reveal"><div class="eyebrow">Stay with us</div><h2>Rooms made for rest.</h2><p>Comfortable spaces with a calm mountain character. Replace the demo room names and photos with the hotel's actual inventory before launch.</p></div>
+    <div class="roomgrid">
+      <article class="room reveal"><div class="roompic"><img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1000&q=82" alt="Deluxe room" loading="lazy"><span class="tag">Couples · 2 guests</span></div><div class="roominfo"><h3>Deluxe Room</h3><p>A refined room for couples seeking a comfortable base after a day in the mountains.</p><a class="enq" href="#booking">ENQUIRE ABOUT THIS ROOM →</a></div></article>
+      <article class="room reveal"><div class="roompic"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=82" alt="Family room" loading="lazy"><span class="tag">Families · 3–4 guests</span></div><div class="roominfo"><h3>Family Room</h3><p>Spacious accommodation designed for relaxed family trips and longer stays.</p><a class="enq" href="#booking">ENQUIRE ABOUT THIS ROOM →</a></div></article>
+      <article class="room reveal"><div class="roompic"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=82" alt="Mountain view room" loading="lazy"><span class="tag">Views · 2–3 guests</span></div><div class="roominfo"><h3>Mountain View Room</h3><p>Wake up to a sense of the valley with a peaceful room made for slow mornings.</p><a class="enq" href="#booking">ENQUIRE ABOUT THIS ROOM →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section fac" id="facilities">
+  <div class="container">
+    <div class="heading reveal"><div class="eyebrow">At the hotel</div><h2>Everything you need.</h2><p>Use this section to highlight the real services and facilities available at Hotel Snow Heights.</p></div>
+    <div class="facgrid">
+      <div class="facility reveal"><div class="fi">⌂</div><h3>Comfortable Rooms</h3><p>Clean, welcoming spaces designed for restful nights.</p></div>
+      <div class="facility reveal"><div class="fi">♨</div><h3>Warm Hospitality</h3><p>A friendly base for discovering the valley.</p></div>
+      <div class="facility reveal"><div class="fi">☕</div><h3>Restaurant</h3><p>Enjoy meals and refreshments during your stay.</p></div>
+      <div class="facility reveal"><div class="fi">⌁</div><h3>Mountain Setting</h3><p>Stay close to Kashmir's spectacular landscapes.</p></div>
+      <div class="facility reveal"><div class="fi">P</div><h3>Parking</h3><p>Convenient parking information can be displayed here.</p></div>
+      <div class="facility reveal"><div class="fi">Wi</div><h3>Wi-Fi</h3><p>Connectivity for planning your next mountain adventure.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section location" id="location">
+  <div class="container locgrid">
+    <div class="loc reveal">
+      <div class="eyebrow">Explore Kashmir</div>
+      <h2>Near the gateway to Sonamarg.</h2>
+      <p>Position the hotel as a convenient base for guests travelling towards Sonamarg and the surrounding mountain attractions. Add the exact address and verified distances before publishing.</p>
+      <div class="facts">
+        <div class="fact"><strong>Destination</strong><span>Sonamarg & Kashmir Valley</span></div>
+        <div class="fact"><strong>Ideal for</strong><span>Families · Couples · Groups</span></div>
+        <div class="fact"><strong>Experience</strong><span>Mountains · Food · Hospitality</span></div>
+        <div class="fact"><strong>Enquiries</strong><span>Direct WhatsApp booking</span></div>
+      </div>
+      <div class="actions"><a class="btn whitebtn" href="https://www.google.com/maps/search/?api=1&query=Hotel%20Snow%20Heights%20Sonamarg">Open Google Maps</a></div>
+    </div>
+    <div class="locpic reveal"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=82" alt="Himalayan mountain landscape" loading="lazy"><span class="credit">Mountain imagery · demo</span></div>
+  </div>
+</section>
+
+<section class="section restaurant" id="restaurant">
+  <div class="container restgrid">
+    <div class="restpic reveal"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=82" alt="Restaurant dining" loading="lazy"></div>
+    <div class="restcopy reveal"><div class="eyebrow">Dine at Snow Heights</div><h2>A taste of Kashmir.</h2><p>Turn meals into part of the stay with a welcoming dining experience. Showcase Kashmiri favourites alongside familiar dishes for travellers from across India and beyond.</p><div class="chips"><span class="chip">Kashmiri Cuisine</span><span class="chip">Indian Favourites</span><span class="chip">Breakfast</span><span class="chip">Family Dining</span></div><a class="btn darkbtn" href="#booking">Ask About Dining</a></div>
+  </div>
+</section>
+
+<section class="section rooms" id="gallery">
+  <div class="container">
+    <div class="heading reveal"><div class="eyebrow">A glimpse of the experience</div><h2>Moments worth remembering.</h2></div>
+    <div class="gallery">
+      <div class="gitem reveal"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=82" alt="Lake and mountains" loading="lazy"><span class="glab">Kashmir landscapes</span></div>
+      <div class="gitem reveal"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=82" alt="Mountain valley" loading="lazy"><span class="glab">Mountain views</span></div>
+      <div class="gitem reveal"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=82" alt="Elegant interior" loading="lazy"><span class="glab">Comfort</span></div>
+      <div class="gitem reveal"><img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=82" alt="Hotel exterior" loading="lazy"><span class="glab">Hospitality</span></div>
+      <div class="gitem reveal"><img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=900&q=82" alt="Travel experience" loading="lazy"><span class="glab">Explore</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section why">
+  <div class="container">
+    <div class="heading reveal"><div class="eyebrow">Why choose us</div><h2>Made for the Kashmir journey.</h2></div>
+    <div class="whygrid">
+      <div class="whycard reveal"><div class="num">01</div><h3>Peaceful base</h3><p>Come back to a comfortable space after a full day exploring the mountains.</p></div>
+      <div class="whycard reveal"><div class="num">02</div><h3>Local warmth</h3><p>Present the personal hospitality that makes a stay feel genuinely welcoming.</p></div>
+      <div class="whycard reveal"><div class="num">03</div><h3>Easy enquiries</h3><p>Let guests move from browsing to a direct booking conversation in seconds.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section booking" id="booking">
+  <div class="container">
+    <div class="heading reveal" style="text-align:center"><div class="eyebrow">Plan your stay</div><h2>Check availability.</h2><p style="margin:10px auto 0">Send an enquiry and the hotel can confirm availability, rates and booking details directly.</p></div>
+    <form class="formcard reveal" id="bookingForm">
+      <div class="formgrid">
+        <div class="field"><label>Full name</label><input id="name" required placeholder="Your name"></div>
+        <div class="field"><label>Phone / WhatsApp</label><input id="phone" required type="tel" placeholder="+91"></div>
+        <div class="field"><label>Check-in</label><input id="checkin" required type="date"></div>
+        <div class="field"><label>Check-out</label><input id="checkout" required type="date"></div>
+        <div class="field"><label>Guests</label><select id="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4 guests</option><option>5+ guests</option></select></div>
+        <div class="field"><label>Room preference</label><select id="room"><option>Any available room</option><option>Deluxe Room</option><option>Family Room</option><option>Mountain View Room</option></select></div>
+        <div class="field full"><label>Message</label><textarea id="message" placeholder="Anything else we should know?"></textarea></div>
+        <div class="full"><button class="btn primary" style="width:100%" type="submit">Send Enquiry on WhatsApp</button></div>
+      </div>
+      <div class="formresult" id="formResult"></div>
+      <div class="smallnote">This demo sends the enquiry to the WhatsApp number configured in the website code. Replace the demo number with the hotel's real WhatsApp number before delivery.</div>
+    </form>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="ctabox reveal">
+      <span class="concept dark-concept">Direct enquiries · Simple booking</span>
+      <h2>Your mountain escape starts here.</h2>
+      <p>Give guests a beautiful first impression — then make it effortless for them to contact the hotel.</p>
+      <div class="ctactions"><a class="btn primary" href="#booking">Plan Your Stay</a><a class="btn wa" href="https://wa.me/919999999999?text=Hello%20Hotel%20Snow%20Heights%2C%20I%20would%20like%20to%20make%20a%20booking%20enquiry.">WhatsApp Hotel</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="heading reveal"><div class="eyebrow">Questions</div><h2>Before you arrive.</h2></div>
+    <div class="faq">
+      <div class="faqitem reveal"><button class="faqq">Where is Hotel Snow Heights located?<span>+</span></button><div class="faqa"><p>The demo positions the hotel near Sonamarg. Add the hotel's verified address here before publishing the final website.</p></div></div>
+      <div class="faqitem reveal"><button class="faqq">How can I check room availability?<span>+</span></button><div class="faqa"><p>Use the enquiry form or WhatsApp button. The hotel can then confirm available rooms, rates and booking conditions.</p></div></div>
+      <div class="faqitem reveal"><button class="faqq">Can I enquire about the restaurant?<span>+</span></button><div class="faqa"><p>Yes. Guests can use the enquiry form or direct WhatsApp contact for dining questions and arrangements.</p></div></div>
+      <div class="faqitem reveal"><button class="faqq">Is this the hotel's final information?<span>+</span></button><div class="faqa"><p>No. This is a private sales-demo concept. Actual room types, prices, facilities, phone number, address and policies should be verified with the hotel before launch.</p></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footgrid">
+      <div><div class="footbrand">Hotel Snow <span>Heights</span></div><p class="footcopy">A premium website concept for a mountain stay near Sonamarg, Kashmir.</p></div>
+      <div class="footlinks"><a href="#home">Home</a><a href="#rooms">Rooms</a><a href="#facilities">Facilities</a><a href="#restaurant">Restaurant</a><a href="#booking">Booking</a></div>
+    </div>
+    <div class="copyright">© 2026 Hotel Snow Heights website concept. Prepared as a private sales demonstration.</div>
+  </div>
+</footer>
+
+<div class="float">
+  <a class="floatbtn floatwa" href="https://wa.me/919999999999?text=Hello%20Hotel%20Snow%20Heights%2C%20I%20would%20like%20to%20enquire." aria-label="WhatsApp">WA</a>
+  <button class="floatbtn floatai" id="aiOpen">✦ AI Concierge</button>
+</div>
+
+<div class="aiover" id="aiOver">
+  <div class="aipanel">
+    <div class="aihead"><div class="aititle"><div class="ailogo">✦</div><div><strong>Snow Heights Concierge</strong><small>Instant hotel information demo</small></div></div><button class="aiclose" id="aiClose">×</button></div>
+    <div class="aidis">Demo assistant — responses are based on the information presented on this concept website.</div>
+    <div class="aimsg" id="aimsg"><div class="msg botmsg">Welcome to Hotel Snow Heights. I can help with rooms, facilities, location, restaurant and booking enquiries.</div></div>
+    <div class="aichips"><button class="aichip">Rooms</button><button class="aichip">Facilities</button><button class="aichip">Location</button><button class="aichip">Booking</button></div>
+    <div class="airow"><input class="aiinput" id="aiInput" placeholder="Ask about the hotel..."><button class="aisend" id="aiSend">➤</button></div>
+  </div>
+</div>
+
+<script>
+const menuBtn=document.getElementById("menub"),mobile=document.getElementById("mobile");
+menuBtn.addEventListener("click",()=>{const open=mobile.classList.toggle("open");menuBtn.setAttribute("aria-expanded",open)});
+mobile.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mobile.classList.remove("open")));
+
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")}),{threshold:.08});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+
+document.querySelectorAll(".faqq").forEach(q=>q.addEventListener("click",()=>{
+  const item=q.parentElement;
+  document.querySelectorAll(".faqitem").forEach(x=>{if(x!==item)x.classList.remove("active")});
+  item.classList.toggle("active");
+  q.querySelector("span").textContent=item.classList.contains("active")?"−":"+";
+}));
+
+const WHATSAPP="919999999999"; // REPLACE THIS WITH THE HOTEL'S REAL WHATSAPP NUMBER
+
+document.getElementById("bookingForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const name=document.getElementById("name").value.trim();
+  const phone=document.getElementById("phone").value.trim();
+  const ci=document.getElementById("checkin").value;
+  const co=document.getElementById("checkout").value;
+  const guests=document.getElementById("guests").value;
+  const room=document.getElementById("room").value;
+  const message=document.getElementById("message").value.trim();
+  if(co && ci && new Date(co)<new Date(ci)){alert("Check-out date should be after check-in.");return}
+  const text=`Hello Hotel Snow Heights,%0A%0AI would like to make a booking enquiry.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ACheck-in: ${encodeURIComponent(ci)}%0ACheck-out: ${encodeURIComponent(co)}%0AGuests: ${encodeURIComponent(guests)}%0ARoom: ${encodeURIComponent(room)}%0AMessage: ${encodeURIComponent(message||"No additional message.")}`;
+  document.getElementById("formResult").classList.add("show");
+  document.getElementById("formResult").innerHTML="Your enquiry is ready. WhatsApp will open with the booking details.";
+  window.open(`https://wa.me/${WHATSAPP}?text=${text}`,"_blank");
+});
+
+const aiOver=document.getElementById("aiOver"),aiOpen=document.getElementById("aiOpen"),aiClose=document.getElementById("aiClose"),aiInput=document.getElementById("aiInput"),aiSend=document.getElementById("aiSend"),aimsg=document.getElementById("aimsg");
+aiOpen.onclick=()=>{aiOver.classList.add("open");aiInput.focus()};
+aiClose.onclick=()=>aiOver.classList.remove("open");
+aiOver.addEventListener("click",e=>{if(e.target===aiOver)aiOver.classList.remove("open")});
+
+function addMsg(text,who){const d=document.createElement("div");d.className="msg "+(who==="user"?"usermsg":"botmsg");d.textContent=text;aimsg.appendChild(d);aimsg.scrollTop=aimsg.scrollHeight}
+function answer(q){
+  const x=q.toLowerCase();
+  if(x.includes("room")||x.includes("stay"))return"Hotel Snow Heights is presented with Deluxe, Family and Mountain View room options. Availability and rates can be confirmed through WhatsApp.";
+  if(x.includes("facility")||x.includes("wifi")||x.includes("parking"))return"The concept highlights comfortable rooms, restaurant, mountain setting, parking and Wi-Fi. The hotel's actual facilities should be confirmed before final launch.";
+  if(x.includes("restaurant")||x.includes("food")||x.includes("eat"))return"The hotel concept includes a dining experience featuring Kashmiri cuisine, Indian favourites and breakfast.";
+  if(x.includes("where")||x.includes("location")||x.includes("sonamarg"))return"The website presents Hotel Snow Heights as a mountain stay near Sonamarg. Tap Open Google Maps for directions; the exact hotel address should be verified before launch.";
+  if(x.includes("book")||x.includes("price")||x.includes("rate")||x.includes("availability"))return"To book, use the Check Availability form or WhatsApp button. The hotel can confirm dates, room availability and current rates.";
+  return"I can help with rooms, facilities, restaurant, location and booking enquiries. Try asking: “What rooms are available?”";
+}
+function sendAI(){const q=aiInput.value.trim();if(!q)return;addMsg(q,"user");aiInput.value="";setTimeout(()=>addMsg(answer(q),"bot"),350)}
+aiSend.onclick=sendAI;aiInput.addEventListener("keydown",e=>{if(e.key==="Enter")sendAI()});
+document.querySelectorAll(".aichip").forEach(b=>b.addEventListener("click",()=>{aiInput.value=b.textContent;sendAI()}));
+</script>
+</body>
+</html>
